@@ -1,0 +1,4 @@
+BGPrivate-Cocoapods
+===================
+
+Private cocoapods
