@@ -6,5 +6,6 @@ Pod::Spec.new do |s|
   s.authors        = {'Bob de Graaf' => 'graafict@gmail.com'}
   s.source         = { :git => 'https://github.com/BobMP/BGUtilities.git', :tag => '0.0.4' }
   s.source_files   = '**/*.{h,m}'  
+  s.frameworks 	   = 'StoreKit', 'CoreLocation'
   s.platform       = :ios
 end
