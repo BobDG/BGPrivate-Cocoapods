@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.source_files   	= '**/*.{h,m}'
   s.resource          = '**/*.{png,strings}'
   s.frameworks 	    	= 'StoreKit', 'CoreLocation', 'MessageUI'
+  s.header_mappings_dir = '**/*'
   s.weak_frameworks	= 'Social'
   s.platform       	= :ios
   s.requires_arc   	= true
