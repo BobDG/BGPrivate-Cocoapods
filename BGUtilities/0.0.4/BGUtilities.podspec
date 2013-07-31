@@ -8,4 +8,5 @@ Pod::Spec.new do |s|
   s.source_files   = '**/*.{h,m}'  
   s.frameworks 	   = 'StoreKit', 'CoreLocation'
   s.platform       = :ios
+  s.requires_arc   = true
 end

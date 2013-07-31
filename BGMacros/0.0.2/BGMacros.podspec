@@ -7,4 +7,5 @@ Pod::Spec.new do |s|
   s.source         = { :git => 'https://github.com/BobMP/xCodeMacros.git', :tag => '0.0.2' }
   s.source_files   = '*.{h,m}'  
   s.platform       = :ios
+  s.requires_arc   = true
 end
